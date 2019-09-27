@@ -1,0 +1,274 @@
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wshorten64to32 failed with the following output:
+Change Dir: /home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cfc3c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cfc3c.dir/build.make CMakeFiles/cmTC_cfc3c.dir/build
+make[1]: Entering directory '/home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cfc3c.dir/src.cxx.o
+/usr/bin/c++     -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -DCOMPILER_SUPPORT_Wshorten64to32 -Werror   -Wshorten-64-to-32 -o CMakeFiles/cmTC_cfc3c.dir/src.cxx.o -c /home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wshorten-64-to-32'
+CMakeFiles/cmTC_cfc3c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_cfc3c.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_cfc3c.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_cfc3c/fast' failed
+make: *** [cmTC_cfc3c/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wenumconversion failed with the following output:
+Change Dir: /home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3b869/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3b869.dir/build.make CMakeFiles/cmTC_3b869.dir/build
+make[1]: Entering directory '/home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3b869.dir/src.cxx.o
+/usr/bin/c++     -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -DCOMPILER_SUPPORT_Wenumconversion -Werror   -Wenum-conversion -o CMakeFiles/cmTC_3b869.dir/src.cxx.o -c /home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wenum-conversion'
+CMakeFiles/cmTC_3b869.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_3b869.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_3b869.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3b869/fast' failed
+make: *** [cmTC_3b869/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcpp11extensions failed with the following output:
+Change Dir: /home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0d9ec/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0d9ec.dir/build.make CMakeFiles/cmTC_0d9ec.dir/build
+make[1]: Entering directory '/home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0d9ec.dir/src.cxx.o
+/usr/bin/c++     -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -DCOMPILER_SUPPORT_Wcpp11extensions -Werror   -Wc++11-extensions -o CMakeFiles/cmTC_0d9ec.dir/src.cxx.o -c /home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wc++11-extensions'
+CMakeFiles/cmTC_0d9ec.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_0d9ec.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_0d9ec.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0d9ec/fast' failed
+make: *** [cmTC_0d9ec/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd981 failed with the following output:
+Change Dir: /home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0cedb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0cedb.dir/build.make CMakeFiles/cmTC_0cedb.dir/build
+make[1]: Entering directory '/home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0cedb.dir/src.cxx.o
+/usr/bin/c++     -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_wd981 -Werror   -wd981 -o CMakeFiles/cmTC_0cedb.dir/src.cxx.o -c /home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-wd981'
+CMakeFiles/cmTC_0cedb.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_0cedb.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_0cedb.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0cedb/fast' failed
+make: *** [cmTC_0cedb/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd2304 failed with the following output:
+Change Dir: /home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a882a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a882a.dir/build.make CMakeFiles/cmTC_a882a.dir/build
+make[1]: Entering directory '/home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a882a.dir/src.cxx.o
+/usr/bin/c++     -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_wd2304 -Werror   -wd2304 -o CMakeFiles/cmTC_a882a.dir/src.cxx.o -c /home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-wd2304'
+CMakeFiles/cmTC_a882a.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a882a.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_a882a.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a882a/fast' failed
+make: *** [cmTC_a882a/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_STRICTANSI failed with the following output:
+Change Dir: /home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1893b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1893b.dir/build.make CMakeFiles/cmTC_1893b.dir/build
+make[1]: Entering directory '/home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1893b.dir/src.cxx.o
+/usr/bin/c++     -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_STRICTANSI -Werror   -strict-ansi -o CMakeFiles/cmTC_1893b.dir/src.cxx.o -c /home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-strict-ansi'
+CMakeFiles/cmTC_1893b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_1893b.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_1893b.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1893b/fast' failed
+make: *** [cmTC_1893b/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Qunusedarguments failed with the following output:
+Change Dir: /home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0a85e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0a85e.dir/build.make CMakeFiles/cmTC_0a85e.dir/build
+make[1]: Entering directory '/home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0a85e.dir/src.cxx.o
+/usr/bin/c++     -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_Qunusedarguments -Werror   -Qunused-arguments -o CMakeFiles/cmTC_0a85e.dir/src.cxx.o -c /home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Qunused-arguments'
+CMakeFiles/cmTC_0a85e.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_0a85e.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_0a85e.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0a85e/fast' failed
+make: *** [cmTC_0a85e/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b32d6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b32d6.dir/build.make CMakeFiles/cmTC_b32d6.dir/build
+make[1]: Entering directory '/home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b32d6.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi -O1 -g1    -o CMakeFiles/cmTC_b32d6.dir/CheckSymbolExists.cxx.o -c /home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+CMakeFiles/cmTC_b32d6.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_b32d6.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_b32d6.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b32d6/fast' failed
+make: *** [cmTC_b32d6/fast] Error 2
+
+File /home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_18502/fast"
+/usr/bin/make -f CMakeFiles/cmTC_18502.dir/build.make CMakeFiles/cmTC_18502.dir/build
+make[1]: Entering directory '/home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_18502.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi -O1 -g1    -o CMakeFiles/cmTC_18502.dir/CheckSymbolExists.cxx.o -c /home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+CMakeFiles/cmTC_18502.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_18502.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_18502.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_18502/fast' failed
+make: *** [cmTC_18502/fast] Error 2
+
+File /home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0ae31/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0ae31.dir/build.make CMakeFiles/cmTC_0ae31.dir/build
+make[1]: Entering directory '/home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0ae31.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi -O1 -g1    -o CMakeFiles/cmTC_0ae31.dir/CheckSymbolExists.cxx.o -c /home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+CMakeFiles/cmTC_0ae31.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_0ae31.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_0ae31.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0ae31/fast' failed
+make: *** [cmTC_0ae31/fast] Error 2
+
+File /home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_616ed/fast"
+/usr/bin/make -f CMakeFiles/cmTC_616ed.dir/build.make CMakeFiles/cmTC_616ed.dir/build
+make[1]: Entering directory '/home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_616ed.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_616ed.dir/CheckSymbolExists.c.o   -c /home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_616ed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_616ed.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_616ed.dir/CheckSymbolExists.c.o  -o cmTC_616ed -rdynamic 
+CMakeFiles/cmTC_616ed.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x14): undefined reference to `pthread_create'
+CheckSymbolExists.c:(.text+0x18): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_616ed.dir/build.make:97: recipe for target 'cmTC_616ed' failed
+make[1]: *** [cmTC_616ed] Error 1
+make[1]: Leaving directory '/home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_616ed/fast' failed
+make: *** [cmTC_616ed/fast] Error 2
+
+File /home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5afdb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5afdb.dir/build.make CMakeFiles/cmTC_5afdb.dir/build
+make[1]: Entering directory '/home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5afdb.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_5afdb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5afdb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5afdb.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_5afdb.dir/CheckFunctionExists.c.o  -o cmTC_5afdb -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5afdb.dir/build.make:97: recipe for target 'cmTC_5afdb' failed
+make[1]: *** [cmTC_5afdb] Error 1
+make[1]: Leaving directory '/home/nvidia/feixianxing_ku/eigen3.3.7/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5afdb/fast' failed
+make: *** [cmTC_5afdb/fast] Error 2
+
+
